@@ -41,4 +41,4 @@ The format looks like:
 ```
 ## Dependencies
 
-* python 3
+* python 2 or 3
