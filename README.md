@@ -1,4 +1,7 @@
 # diary
+
+[![Build Status](https://travis-ci.org/skhg/diary.svg?branch=master)](https://travis-ci.org/skhg/diary)
+
 Markdown diary file generator
 
 ## How to run
