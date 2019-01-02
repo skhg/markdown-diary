@@ -13,8 +13,8 @@ args = parser.parse_args()
 
 try:
     month = datetime.strptime(args.month, '%Y-%m')
-except:
-    print('Error: ' + args.month + ' is not a valid YYYY-MM year/month combination')
+except ValueError:
+    print('Error: \'' + args.month + '\' is not a valid YYYY-MM year/month combination')
     exit()
 
 filename = str(month.strftime('%m')) + ' ' + str(month.strftime('%B')) + '.md'
