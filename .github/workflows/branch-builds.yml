@@ -27,16 +27,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install .
-          pip install codecov
           pip install flake8
           pip install radon
-
-      - name: "Run code coverage"
-        run: |
-          coverage run ./tests/tests.py
-          codecov
-        env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
       - name: "Run flake8"
         run: |
@@ -44,6 +36,6 @@ jobs:
 
       - name: "Run radon"
         run: |
-          radon cc ./pyleapcard/ -a
+          radon cc ./py_markdown_diary/ -a
           radon mi .
           radon raw . -s
