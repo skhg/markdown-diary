@@ -16,10 +16,10 @@ setup(
     keywords='diary journal markdown cli',
     author='Jack Higgins',
     author_email='pypi@jackhiggins.ie',
-    url='https://github.com/skhg/py_md_diary',
-    packages=['py_md_diary'],
+    url='https://github.com/skhg/markdown-diary',
+    packages=['py_markdown_diary'],
     entry_points = {
-        'console_scripts': ['md-diary=py_md_diary.command_line:main'],
+        'console_scripts': ['md-diary=py_markdown_diary.command_line:main'],
     },
     install_requires=[
     ],
