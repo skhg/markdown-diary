@@ -1,14 +1,19 @@
-# diary
+# markdown-diary
 
 [![Build Status](https://travis-ci.org/skhg/diary.svg?branch=master)](https://travis-ci.org/skhg/diary)
 
-Markdown diary file generator
+Diary file template generator, producing text files in [Markdown](https://en.wikipedia.org/wiki/Markdown) format.
 
-## How to run
+I use this personally to keep a simple monthly diary of my notes and activities. Since it just produces a series of text files, they can be stored in something like Dropbox, and synced everywhere easily. 
 
-`python diary.py YYYY-MM`
+## Installation
+`pip install markdown-diary`
 
-e.g. `python diary.py 2019-01`
+## How to use
+
+Generate a diary file for a month, in the current directory:
+
+Run `md-diary -m YYYY-MM` (e.g. `md-diary -m 2019-01`) which will create a file called `01 January.md`
 
 This produces a markdown file named `01 January.md` in the current directory, formatted for daily diary entries, with day and week numbers.
 
@@ -42,6 +47,7 @@ The format looks like:
 
 ### Tue 8
 ```
+
 ## Dependencies
 
 * python 2 or 3
