@@ -1,6 +1,6 @@
 # markdown-diary
 
-![PyPI](https://img.shields.io/pypi/v/markdown-diary)
+![](https://github.com/skhg/markdown-diary/workflows/.github/workflows/branch-builds.yml/badge.svg?branch=master) ![PyPI](https://img.shields.io/pypi/v/markdown-diary)
 
 Diary file template generator, producing text files in [Markdown](https://en.wikipedia.org/wiki/Markdown) format.
 
