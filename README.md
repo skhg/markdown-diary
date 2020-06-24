@@ -1,6 +1,6 @@
 # markdown-diary
 
-[![Build Status](https://travis-ci.org/skhg/diary.svg?branch=master)](https://travis-ci.org/skhg/diary)
+![PyPI](https://img.shields.io/pypi/v/markdown-diary)
 
 Diary file template generator, producing text files in [Markdown](https://en.wikipedia.org/wiki/Markdown) format.
 
