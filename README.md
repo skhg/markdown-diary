@@ -11,11 +11,8 @@ I use this personally to keep a simple monthly diary of my notes and activities.
 
 ## How to use
 
-Generate a diary file for a month, in the current directory:
-
-Run `md-diary -m YYYY-MM` (e.g. `md-diary -m 2019-01`) which will create a file called `01 January.md`
-
-This produces a markdown file named `01 January.md` in the current directory, formatted for daily diary entries, with day and week numbers.
+### For a single month
+Run `md-diary YYYY-mm` (e.g. `md-diary 2019-01`) which will create a file called `01 January.md`
 
 The format looks like:
 
@@ -47,6 +44,10 @@ The format looks like:
 
 ### Tue 8
 ```
+
+### For a whole year
+
+Like above, but run `md-diary YYYY` (e.g. `md-diary 20202`) which will create the files `01 January.md`, `02 February.md`, `...` in the current directory. 
 
 ## Dependencies
 

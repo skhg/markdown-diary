@@ -9,20 +9,18 @@ import os
 class Diary(object):
 
     @staticmethod
-    def validate_month(month_str):
+    def valid_month(month_str):
         try:
             return datetime.strptime(month_str, '%Y-%m')
         except ValueError:
-            print('Error: \'' + month_str + '\' is not a valid YYYY-MM year/month combination')
-            exit()
+            return None
 
     @staticmethod
-    def validate_year(year_str):
+    def valid_year(year_str):
         try:
             return datetime.strptime(year_str, '%Y')
         except ValueError:
-            print('Error: \'' + year_str + '\' is not a valid YYYY year')
-            exit()
+            return None
 
     @staticmethod
     def write_month_file(month, filename):
