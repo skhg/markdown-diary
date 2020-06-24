@@ -18,7 +18,7 @@ setup(
     author_email='pypi@jackhiggins.ie',
     url='https://github.com/skhg/markdown-diary',
     packages=['py_markdown_diary'],
-    entry_points = {
+    entry_points={
         'console_scripts': ['md-diary=py_markdown_diary.command_line:main'],
     },
     install_requires=[
