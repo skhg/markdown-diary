@@ -54,7 +54,7 @@ The format looks like:
 
 ### For a whole year
 
-Like above, but run `md-diary YYYY` (e.g. `md-diary 20202`) which will create the files `01 January.md`, `02 February.md`, `...` in the current directory. 
+Like above, but run `md-diary YYYY` (e.g. `md-diary 2021`) which will create the files `01 January.md`, `02 February.md`, `...` in the current directory. 
 
 ### Options
 Use the `-w` flag to output weekdays only.
