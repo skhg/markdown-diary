@@ -28,6 +28,7 @@ jobs:
           pip install -r requirements.txt
           pip install .
           pip install flake8
+          pip install flake8_polyfill
           pip install radon
 
       - name: "Run flake8"
